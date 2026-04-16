@@ -1,3 +1,4 @@
+import { RemoteUsHiringModule } from "@/components/remote-us-hiring-module";
 import { SearchManagerShell } from "@/components/search-manager-shell";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
         <section>
           <SearchManagerShell />
         </section>
+        <RemoteUsHiringModule />
       </div>
     </main>
   );
